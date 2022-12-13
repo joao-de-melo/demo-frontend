@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve"
+    "start": "ng serve --proxy-config proxy.conf.json"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +21,7 @@
     "@angular-devkit/build-angular": "^0.1100.4",
     "@angular/cli": "^11.0.4",
     "@angular/compiler-cli": "^11.0.5",
+    "@ngneat/spectator": "^12.2.1",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.19.9",

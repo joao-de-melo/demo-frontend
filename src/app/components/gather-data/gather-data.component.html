@@ -1,0 +1,14 @@
+
+<h2>Input List</h2>
+
+<ul>
+  <li *ngFor="let number of currentList">{{number}}</li>
+</ul>
+
+<!-- Input field -->
+<input type="number" step="1" name="number" class="form-control" [(ngModel)]="newNumber">
+<!-- Add button -->
+<button (click)="addNumber()">Add Number</button>
+<button (click)="sort()">Sort List</button>
+<button (click)="reset()">Reset List</button>
+
